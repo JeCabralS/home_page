@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap");
+
+:root {
+  font-family: "Open Sans", sans-serif;
+}
+
+figure > img {
+  max-width: 100%;
+  display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: #555;
+}
+
+h1,
+h2 {
+  color: #111;
+}
+
+.top-bar {
+  background-color: #333;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px;
+  border-bottom: 3px solid #f95842;
+}
+
+.container {
+  max-width: 888px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.headline {
+  font-size: 56px;
+  line-height: 64px;
+  padding-bottom: 20px;
+}
+
+.subtitle {
+  font-weight: normal;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.author {
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+.social-icons ul{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  border-bottom: 1px solid #999;
+}
+
+.social-icon {
+  width: 25px;
+  padding: 10px 10px 10px 0;
+}
+
+.content {
+  max-width: 648px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 20px;
+  line-height: 32px;
+  padding: 20px 0;
+}
+
+.cta {
+  font-size: 20px;
+  margin-bottom: 30px 0;
+}
+
+.cta a {
+  color: #f95842;
+  font-weight: bold;
+}
+
+.img-moeda{
+  padding-top: 20px;
+}
+
+figure {
+  padding: 0;
+  margin: 40px 0;
+}
+
+.content_2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
